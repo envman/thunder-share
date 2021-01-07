@@ -10,7 +10,8 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:thunder-share.helloWorld"
+		"onCommand:thunder-share.helloWorld",
+		"onView:nodeDependencies"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
@@ -18,7 +19,7 @@
 			"activitybar": [
 				{
 					"id": "package-explorer",
-					"title": "Package Explorer",
+					"title": "Thunder Share",
 					"icon": "media/dep.svg"
 				}
 			]
@@ -33,7 +34,7 @@
 			"package-explorer": [
 				{
 					"id": "nodeDependencies",
-					"name": "Node Dependencies",
+					"name": "Thunder Time",
 					"icon": "media/dep.svg",
 					"contextualTitle": "Package Explorer"
 				}
